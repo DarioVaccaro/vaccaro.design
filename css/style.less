@@ -50,6 +50,14 @@
 	font-size: 10px;
 	font-family: @Gotham;
 	text-transform: uppercase;
+	@media(max-width: 900px) {
+		text-align: center;
+	}
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -377,6 +385,9 @@ body {
 			}
 				div {
 					margin-right: 20px;
+					@media(max-width: 900px) {
+						margin-right: 0;
+					}
 					h1 {
 						font-family: @Gotham;
 						margin-top: 0px;
@@ -500,6 +511,9 @@ body {
 				}
    				a {
    					margin: 0 25px 25px 0;
+   					@media(max-width: 900px) {
+						margin-right: 0;
+					}
    					div {
 						width: 300px;
 						height: 200px;

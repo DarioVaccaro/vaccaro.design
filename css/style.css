@@ -49,6 +49,16 @@
   font-family: 'Gotham', sans-serif;
   text-transform: uppercase;
 }
+@media (max-width: 900px) {
+  .title-style {
+    text-align: center;
+  }
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   padding: 0;
@@ -324,6 +334,11 @@ body main .starter-block .work-history .work-title {
   text-transform: uppercase;
   animation: fadein 0.2s ease-in forwards;
 }
+@media (max-width: 900px) {
+  body main .starter-block .work-history .work-title {
+    text-align: center;
+  }
+}
 body main .starter-block .work-history .work-module {
   width: 350px;
   height: 90px;
@@ -396,6 +411,11 @@ body main .projects .projects-title {
   font-family: 'Gotham', sans-serif;
   text-transform: uppercase;
 }
+@media (max-width: 900px) {
+  body main .projects .projects-title {
+    text-align: center;
+  }
+}
 body main .projects #project-list {
   display: flex;
   flex-direction: row;
@@ -407,6 +427,11 @@ body main .projects #project-list {
 }
 body main .projects #project-list div {
   margin-right: 20px;
+}
+@media (max-width: 900px) {
+  body main .projects #project-list div {
+    margin-right: 0;
+  }
 }
 body main .projects #project-list div h1 {
   font-family: 'Gotham', sans-serif;
@@ -452,6 +477,11 @@ body main .work .work-title {
   font-size: 10px;
   font-family: 'Gotham', sans-serif;
   text-transform: uppercase;
+}
+@media (max-width: 900px) {
+  body main .work .work-title {
+    text-align: center;
+  }
 }
 body main .work #work-links {
   display: flex;
@@ -526,6 +556,11 @@ body main .dribbble h1 {
   text-transform: uppercase;
   margin-top: 25px;
 }
+@media (max-width: 900px) {
+  body main .dribbble h1 {
+    text-align: center;
+  }
+}
 body main .dribbble #drib-links {
   display: flex;
   flex-flow: row wrap;
@@ -549,6 +584,11 @@ body main .dribbble #drib-links {
 }
 body main .dribbble #drib-links a {
   margin: 0 25px 25px 0;
+}
+@media (max-width: 900px) {
+  body main .dribbble #drib-links a {
+    margin-right: 0;
+  }
 }
 body main .dribbble #drib-links a div {
   width: 300px;
