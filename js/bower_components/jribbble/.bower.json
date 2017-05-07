@@ -1,0 +1,41 @@
+{
+  "name": "jribbble",
+  "version": "2.0.4",
+  "homepage": "http://jribbble.com",
+  "authors": [
+    "Tyler Gaw <me@tylergaw.com>"
+  ],
+  "description": "A jQuery plugin for the Dribbble API",
+  "main": "dist/jribbble.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "dribbble"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests",
+    ".travis.yml",
+    "Makefile",
+    "package.json",
+    "src"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "_release": "2.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.4",
+    "commit": "9e5546d2d04ac869162566782c1182ee923b7e9e"
+  },
+  "_source": "https://github.com/tylergaw/jribbble.git",
+  "_target": "^2.0.4",
+  "_originalSource": "jribbble",
+  "_direct": true
+}
