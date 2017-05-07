@@ -42,6 +42,12 @@
   color: white;
   text-transform: uppercase;
 }
+@media (max-width: 480px) {
+  .span-style {
+    font-size: 8px;
+    padding: 5px 13px 2px 13px;
+  }
+}
 .title-style {
   margin: 0 0 10px 0;
   text-align: left;
@@ -126,6 +132,12 @@ body nav section .message span {
   color: white;
   text-transform: uppercase;
   margin-right: 20px;
+}
+@media (max-width: 480px) {
+  body nav section .message span {
+    font-size: 8px;
+    padding: 5px 13px 2px 13px;
+  }
 }
 body nav section .message h1 {
   font-size: 12px;
@@ -293,6 +305,12 @@ body main .starter-block .profile .profile-info div .work-tags {
   color: white;
   text-transform: uppercase;
   margin-right: 10px;
+}
+@media (max-width: 480px) {
+  body main .starter-block .profile .profile-info div .work-tags {
+    font-size: 8px;
+    padding: 5px 13px 2px 13px;
+  }
 }
 body main .starter-block .profile .profile-info div .work-tags:first-child {
   background: #00C9FF;
