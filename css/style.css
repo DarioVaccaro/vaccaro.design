@@ -48,6 +48,18 @@
     padding: 5px 13px 2px 13px;
   }
 }
+@media (max-width: 413px) {
+  .span-style {
+    font-size: 6px;
+    padding: 3px 11px 0px 11px;
+  }
+}
+@media (max-width: 320px) {
+  .span-style {
+    font-size: 4px;
+    padding: 3px 11px 0px 11px;
+  }
+}
 .title-style {
   margin: 0 0 10px 0;
   text-align: left;
@@ -112,6 +124,12 @@ body nav section .logo-text {
     font-weight: 300;
   }
 }
+@media (max-width: 320px) {
+  body nav section .logo-text {
+    width: 250px;
+    text-align: center;
+  }
+}
 body nav section .message {
   text-align: center;
 }
@@ -139,6 +157,18 @@ body nav section .message span {
     padding: 5px 13px 2px 13px;
   }
 }
+@media (max-width: 413px) {
+  body nav section .message span {
+    font-size: 6px;
+    padding: 3px 11px 0px 11px;
+  }
+}
+@media (max-width: 320px) {
+  body nav section .message span {
+    font-size: 4px;
+    padding: 3px 11px 0px 11px;
+  }
+}
 body nav section .message h1 {
   font-size: 12px;
   display: inline-block;
@@ -158,6 +188,12 @@ body nav section .message h1 {
 body nav section ul {
   list-style: none;
   padding-left: 0px;
+}
+@media (max-width: 390px) {
+  body nav section ul {
+    width: 250px;
+    text-align: center;
+  }
 }
 body nav section ul li {
   font-size: 11px;
@@ -249,6 +285,12 @@ body main .starter-block .profile .profile-info p {
     margin-bottom: 40px;
   }
 }
+@media (max-width: 320px) {
+  body main .starter-block .profile .profile-info p {
+    font-size: 12px;
+    width: 250px;
+  }
+}
 body main .starter-block .profile .profile-info .social {
   margin: 18px 0 22px 0;
 }
@@ -313,6 +355,18 @@ body main .starter-block .profile .profile-info div .work-tags {
     padding: 5px 13px 2px 13px;
   }
 }
+@media (max-width: 413px) {
+  body main .starter-block .profile .profile-info div .work-tags {
+    font-size: 6px;
+    padding: 3px 11px 0px 11px;
+  }
+}
+@media (max-width: 320px) {
+  body main .starter-block .profile .profile-info div .work-tags {
+    font-size: 4px;
+    padding: 3px 11px 0px 11px;
+  }
+}
 body main .starter-block .profile .profile-info div .work-tags:first-child {
   background: #00C9FF;
   box-shadow: 0 0 4px 0 #00C8FF;
@@ -333,11 +387,11 @@ body main .starter-block .profile .profile-info div .work-tags:nth-child(4) {
   box-shadow: 0 0 4px 0 #ADE600;
   border-radius: 4px;
 }
-body main .starter-block .work-history {
+body main .starter-block #work-history {
   animation: fadein 0.9s ease-in forwards;
 }
 @media (max-width: 900px) {
-  body main .starter-block .work-history {
+  body main .starter-block #work-history {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -345,7 +399,7 @@ body main .starter-block .work-history {
     margin-top: 80px;
   }
 }
-body main .starter-block .work-history .work-title {
+body main .starter-block #work-history .work-title {
   margin: 0 0 10px 0;
   text-align: left;
   font-size: 10px;
@@ -354,58 +408,58 @@ body main .starter-block .work-history .work-title {
   animation: fadein 0.2s ease-in forwards;
 }
 @media (max-width: 900px) {
-  body main .starter-block .work-history .work-title {
+  body main .starter-block #work-history .work-title {
     text-align: center;
   }
 }
-body main .starter-block .work-history .work-module {
+body main .starter-block #work-history .work-module {
   width: 350px;
   height: 90px;
   box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.5);
   margin-bottom: 25px;
   border-radius: 4px;
 }
-body main .starter-block .work-history .work-module div {
+body main .starter-block #work-history .work-module div {
   padding: 10px;
   text-align: left;
 }
-body main .starter-block .work-history .work-module div h1 {
+body main .starter-block #work-history .work-module div h1 {
   font-size: 18px;
   margin: 0;
   font-family: 'Gotham', sans-serif;
   line-height: 14px;
   display: inline;
 }
-body main .starter-block .work-history .work-module div .secondary-header {
+body main .starter-block #work-history .work-module div .secondary-header {
   display: inline;
   font-size: 14px;
   float: right;
 }
-body main .starter-block .work-history .work-module div h2 {
+body main .starter-block #work-history .work-module div h2 {
   font-size: 12px;
   margin: 2px 0 0 1px;
   font-family: 'Gotham', sans-serif;
 }
-body main .starter-block .work-history .work-module div p {
+body main .starter-block #work-history .work-module div p {
   font-family: 'Maison Neue', sans-serif;
   font-size: 12px;
   width: 300px;
   margin: 11px 0 0 0;
   line-height: 15px;
 }
-body main .starter-block .work-history .work-module:nth-child(2) {
+body main .starter-block #work-history .work-module:nth-child(2) {
   animation: fadein 0.4s ease-in forwards;
 }
-body main .starter-block .work-history .work-module:nth-child(3) {
+body main .starter-block #work-history .work-module:nth-child(3) {
   animation: fadein 0.6s ease-in forwards;
 }
-body main .starter-block .work-history .work-module:nth-child(4) {
+body main .starter-block #work-history .work-module:nth-child(4) {
   animation: fadein 0.8s ease-in forwards;
 }
-body main .starter-block .work-history .work-module:nth-child(5) {
+body main .starter-block #work-history .work-module:nth-child(5) {
   animation: fadein 1s ease-in forwards;
 }
-body main .starter-block .work-history .work-module:nth-child(6) {
+body main .starter-block #work-history .work-module:nth-child(6) {
   animation: fadein 1.2s ease-in forwards;
 }
 body main .projects {
@@ -477,13 +531,13 @@ body main .projects #project-list div p {
     width: 350px;
   }
 }
-body main .work {
+body main #work {
   margin-left: 10%;
   margin-top: 25px;
   animation: fade-in-up 1.4s ease-in-out forwards;
 }
 @media (max-width: 900px) {
-  body main .work {
+  body main #work {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -492,7 +546,7 @@ body main .work {
     margin-top: 20px;
   }
 }
-body main .work .work-title {
+body main #work .work-title {
   margin: 0 0 10px 0;
   text-align: left;
   font-size: 10px;
@@ -500,23 +554,23 @@ body main .work .work-title {
   text-transform: uppercase;
 }
 @media (max-width: 900px) {
-  body main .work .work-title {
+  body main #work .work-title {
     text-align: center;
   }
 }
-body main .work #work-links {
+body main #work #work-links {
   display: flex;
   flex-flow: row wrap;
   flex-grow: 1;
   width: 1500px;
 }
 @media (max-width: 1900px) {
-  body main .work #work-links {
+  body main #work #work-links {
     width: 900px;
   }
 }
 @media (max-width: 900px) {
-  body main .work #work-links {
+  body main #work #work-links {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -525,31 +579,33 @@ body main .work #work-links {
     text-align: center;
   }
 }
-body main .work #work-links div div {
+body main #work #work-links div div {
   width: 350px;
   height: 200px;
   box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.5);
   margin: 0 40px 0 0;
   transition: box-shadow 0.3s ease-out;
+  background-size: cover;
+  background-position: center;
 }
-body main .work #work-links div div:hover {
+body main #work #work-links div div:hover {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.15), 0 32px 32px rgba(0, 0, 0, 0.15);
 }
-body main .work #work-links div div:active {
+body main #work #work-links div div:active {
   transition: box-shadow 0.3s ease-out;
   box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 1400px) {
-  body main .work #work-links div div {
+  body main #work #work-links div div {
     width: 300px;
   }
 }
 @media (max-width: 900px) {
-  body main .work #work-links div div {
+  body main #work #work-links div div {
     margin: 0;
   }
 }
-body main .work #work-links div h1 {
+body main #work #work-links div h1 {
   margin: 20px 0 20px 0;
   font-size: 14px;
   font-family: 'Gotham', sans-serif;
@@ -670,6 +726,11 @@ body footer section .foot-left p {
     width: 150px;
   }
 }
+@media (max-width: 320px) {
+  body footer section .foot-left p {
+    font-size: 12px;
+  }
+}
 body footer section .foot-left .social {
   margin: 18px 0 22px 0;
 }
@@ -708,6 +769,11 @@ body footer section .foot-right ul li {
   font-size: 11px;
   display: inline;
 }
+@media (max-width: 320px) {
+  body footer section .foot-right ul li {
+    font-size: 9px;
+  }
+}
 body footer section .foot-right ul li:nth-child(2) {
   margin: 0 20px 0 20px;
 }
@@ -732,4 +798,9 @@ body footer section .foot-right p {
   width: 240px;
   color: #848484;
   line-height: 15px;
+}
+@media (max-width: 413px) {
+  body footer section .foot-right p {
+    width: 150px;
+  }
 }
