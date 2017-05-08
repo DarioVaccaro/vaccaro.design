@@ -245,7 +245,8 @@ body main .starter-block .profile .profile-info p {
 @media (max-width: 600px) {
   body main .starter-block .profile .profile-info p {
     font-size: 14px;
-    width: 350px;
+    width: 300px;
+    margin-bottom: 40px;
   }
 }
 body main .starter-block .profile .profile-info .social {
