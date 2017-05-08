@@ -607,7 +607,7 @@ body main #work #work-links div div:active {
 }
 body main #work #work-links div h1 {
   margin: 20px 0 20px 0;
-  font-size: 14px;
+  font-size: 14px !important;
   font-family: 'Gotham', sans-serif;
   font-weight: 600;
 }
