@@ -611,6 +611,11 @@ body main #work #work-links div h1 {
   font-family: 'Gotham', sans-serif;
   font-weight: 600;
 }
+@media (max-width: 900px) {
+  body main #work #work-links div h1 {
+    font-size: 13px;
+  }
+}
 body main .dribbble {
   margin: 0 auto;
   margin-left: 10%;
