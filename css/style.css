@@ -449,7 +449,7 @@ body main .starter-block #work-history .work-module div p {
 }
 @media (max-width: 600px) {
   body main .starter-block #work-history .work-module div p {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
   }
 }
 body main .starter-block #work-history .work-module:nth-child(2) {
