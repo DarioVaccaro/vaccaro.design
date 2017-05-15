@@ -447,6 +447,11 @@ body main .starter-block #work-history .work-module div p {
   margin: 11px 0 0 0;
   line-height: 15px;
 }
+@media (max-width: 900px) {
+  body main .starter-block #work-history .work-module div p {
+    margin-top: 7px;
+  }
+}
 body main .starter-block #work-history .work-module:nth-child(2) {
   animation: fadein 0.4s ease-in forwards;
 }
