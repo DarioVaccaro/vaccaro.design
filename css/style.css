@@ -692,6 +692,102 @@ body main .dribbble #drib-links a div:active {
   transition: box-shadow 0.3s ease-out;
   box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.2);
 }
+body main .blog {
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-top: -20px;
+  animation: fadein 1.8s ease-in forwards;
+}
+@media (max-width: 900px) {
+  body main .blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+body main .blog .blog-title {
+  margin: 0 0 10px 0;
+  text-align: left;
+  font-size: 10px;
+  font-family: 'Gotham', sans-serif;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+@media (max-width: 900px) {
+  body main .blog .blog-title {
+    text-align: center;
+  }
+}
+body main .blog #blog-links {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  width: 1600px;
+  margin-bottom: 50px;
+}
+@media (max-width: 1450px) {
+  body main .blog #blog-links {
+    width: 1200px;
+  }
+}
+@media (max-width: 900px) {
+  body main .blog #blog-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+body main .blog #blog-links .blog-card {
+  width: 400px;
+  height: 450px;
+  box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  transition: box-shadow 0.3s ease-out;
+  margin-right: 25px;
+}
+body main .blog #blog-links .blog-card:hover {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.15), 0 32px 32px rgba(0, 0, 0, 0.15);
+}
+body main .blog #blog-links .blog-card:active {
+  transition: box-shadow 0.3s ease-out;
+  box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+body main .blog #blog-links .blog-card a {
+  margin: 0 25px 25px 0;
+}
+body main .blog #blog-links .blog-card a div {
+  width: 400px;
+  height: 250px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 900px) {
+  body main .blog #blog-links .blog-card a {
+    margin-right: 0;
+  }
+}
+body main .blog #blog-links .blog-card h1 {
+  font-size: 18px;
+  font-family: 'Gotham', sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 0;
+  width: 250px;
+}
+body main .blog #blog-links .blog-card p {
+  font-family: 'Maison Neue', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  width: 350px;
+  margin-left: 20px;
+}
 body footer {
   height: 300px;
   background-color: #1E1E1E;

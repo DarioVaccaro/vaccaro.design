@@ -572,6 +572,90 @@ body {
    				}
 			}
 		}
+		.blog {
+			margin: 0 auto;
+			margin-left: 10%;
+			margin-top: -20px;
+			animation: fadein 1.8s ease-in forwards;
+			@media(max-width: 900px) {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				margin: 0;
+			}
+			.blog-title {
+				.title-style;
+				margin-top: 25px;
+			}
+			#blog-links {
+				display: flex;
+				flex-flow: row wrap;
+				flex-grow: 1;
+   				width: 1600px;
+   				margin-bottom: 50px;
+   				@media(max-width: 1450px) {
+   					width: 1200px;
+   				}
+   				@media(max-width: 900px) {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					margin: 0;
+				}
+   				.blog-card {
+   					width: 400px;
+					height: 450px;
+					box-shadow: 0 0px 4px 0px rgba(0,0,0,0.50);
+					background-size: cover;
+					background-position: center;	
+					transition: box-shadow .3s ease-out;
+					margin-right: 25px;
+					&:hover {
+						box-shadow: 
+			                0 2px 2px rgba(0, 0, 0, .1), 
+			                0 4px 4px rgba(0, 0, 0, .1), 
+			                0 8px 8px rgba(0, 0, 0, .1), 
+			                0 16px 16px rgba(0, 0, 0, .15), 
+			                0 32px 32px rgba(0, 0, 0, .15);
+					}
+					&:active {
+						transition: box-shadow .3s ease-out;
+						box-shadow: 0 0px 4px 0px rgba(0,0,0,0.2);
+					}
+   					a {
+	   					margin: 0 25px 25px 0;
+	   					div {
+							width: 400px;
+							height: 250px;
+							background-position: top center;
+							background-size: cover;
+							background-repeat: no-repeat;
+						}
+	   					@media(max-width: 900px) {
+							margin-right: 0;
+						}
+	   				}
+	   				h1 {
+	   					font-size: 18px;
+	   					font-family: @Gotham;
+	   					font-weight: 700;
+	   					margin-left: 20px;
+	   					margin-top: 0;
+	   					width: 250px;
+	   				}
+	   				p {
+	   					font-family: @Maison;
+	   					font-weight: 400;
+	   					font-size: 14px;
+	   					line-height: 18px;
+	   					width: 350px;
+	   					margin-left: 20px;
+	   				}
+   				}
+			}
+		}
 	}
 	footer {
 		height: 300px;
