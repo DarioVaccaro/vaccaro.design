@@ -759,6 +759,8 @@ body main .blog #blog-links .blog-card:active {
 }
 body main .blog #blog-links .blog-card a {
   margin: 0 0 25px 0;
+  text-decoration: none;
+  color: black;
 }
 body main .blog #blog-links .blog-card a div {
   width: 400px;
