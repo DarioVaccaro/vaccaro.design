@@ -815,11 +815,6 @@ body footer section .foot-left {
     margin: 0;
   }
 }
-body footer section .foot-left h1 {
-  font-family: 'Gotham', sans-serif;
-  font-weight: 600;
-  font-size: 10px;
-}
 body footer section .foot-left p {
   font-family: 'Maison Neue', sans-serif;
   font-weight: 300;
@@ -909,4 +904,10 @@ body footer section .foot-right p {
   body footer section .foot-right p {
     width: 150px;
   }
+}
+body footer section .foot-right h1 {
+  font-family: 'Gotham', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  color: #848484;
 }
