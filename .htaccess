@@ -12,7 +12,3 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
-RewriteBase /
-
-# redirect html pages to the root domain
-RewriteRule ^index\ / [NC,R,L]
