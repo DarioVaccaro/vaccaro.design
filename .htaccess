@@ -15,4 +15,4 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 RewriteBase /
 
 # redirect html pages to the root domain
-RewriteRule ^index\.html$ / [NC,R,L]
+RewriteRule ^index\ / [NC,R,L]
