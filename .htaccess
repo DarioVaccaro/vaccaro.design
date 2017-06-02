@@ -5,3 +5,5 @@ RewriteRule ^(.*)$ http://vaccaro.design/$1 [R=301,L]
 RewriteCond %{HTTP_REFERER} !^http://(www\.)?vaccaro\.design [NC]
 RewriteCond %{HTTP_REFERER} !^http://(www\.)?vaccaro\.design.*$ [NC]
 RewriteRule \.(gif|jpg|js|txt|css|ttf|otf)$ /messageforcurious [L]
+
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
