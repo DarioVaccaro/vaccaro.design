@@ -9,8 +9,5 @@ RewriteRule \.(gif|jpg|js|txt|css|ttf|otf)$ /getoutofmyfiles [L]
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 
-RewriteCond %{THE_REQUEST} ^.*/index\.html 
-RewriteRule ^(.*)index.html$ /$1 [R=301,L] 
-
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
