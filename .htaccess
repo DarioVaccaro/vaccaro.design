@@ -1,14 +1,15 @@
-
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.vaccaro.design$ [NC]
 RewriteRule ^(.*)$ http://vaccaro.design/$1 [R=301,L]
 
 RewriteCond %{HTTP_REFERER} !^http://(www\.)?vaccaro\.design [NC]
 RewriteCond %{HTTP_REFERER} !^http://(www\.)?vaccaro\.design.*$ [NC]
-RewriteRule \.(gif|jpg|js|txt|css|ttf|otf)$ /messageforcurious [L]
+RewriteRule \.(gif|jpg|js|txt|css|ttf|otf)$ /getoutofmyfiles [L]
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
+
+RewriteRule ^(.*)index\.(php|html?)$ /$1 [R=301,NC,L]
 
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
