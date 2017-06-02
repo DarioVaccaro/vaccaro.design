@@ -6,9 +6,13 @@ RewriteCond %{HTTP_REFERER} !^http://(www\.)?vaccaro\.design [NC]
 RewriteCond %{HTTP_REFERER} !^http://(www\.)?vaccaro\.design.*$ [NC]
 RewriteRule \.(gif|jpg|js|txt|css|ttf|otf)$ /getoutofmyfiles [L]
 
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ / [NC,R,L]
 
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+#RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+#RewriteRule ^ /%1 [NC,L,R]
+
+#RewriteCond %{REQUEST_FILENAME}.html -f
+#RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
