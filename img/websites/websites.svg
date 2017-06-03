@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="30px" viewBox="0 0 43 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3,0 L38,0 L38,0 C39.6568542,-3.04359188e-16 41,1.34314575 41,3 L41,4 L0,4 L0,3 L0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HS-Standard-Copy-8" transform="translate(-939.000000, -379.000000)">
+            <g id="Group" transform="translate(940.000000, 380.000000)">
+                <path d="M0,4 L41,4 L41,26 L41,26 C41,27.6568542 39.6568542,29 38,29 L3,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,4 Z" id="Rectangle-2" fill="#FFFFFF"></path>
+                <g id="Rectangle-2-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#89F0FF" stroke-width="1" d="M3,-0.5 L38,-0.5 C39.9329966,-0.5 41.5,1.06700338 41.5,3 L41.5,4.5 L-0.5,4.5 L-0.5,3 C-0.5,1.06700338 1.06700338,-0.5 3,-0.5 Z"></path>
+                </g>
+                <rect id="Rectangle-3" fill="#89F0FF" x="2" y="7" width="14" height="8"></rect>
+                <rect id="Rectangle-3-Copy" fill="#89F0FF" x="2" y="17" width="10" height="4"></rect>
+                <rect id="Rectangle-3-Copy-2" fill="#89F0FF" x="14" y="17" width="10" height="4"></rect>
+                <rect id="Rectangle-3-Copy-3" fill="#B6F6FF" x="29" y="7" width="10" height="20"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
