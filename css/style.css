@@ -968,6 +968,8 @@ body main .website-header .featured div {
   box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.19);
   border-radius: 4px;
   transition: box-shadow 0.3s ease-out;
+  background-size: cover;
+  background-position: center;
 }
 @media (max-width: 1400px) {
   body main .website-header .featured div {
