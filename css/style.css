@@ -999,7 +999,7 @@ body main .website-header .featured div:active {
   }
 }
 body main .testimonials {
-  margin: 0 10% 0 10%;
+  margin: 30px 10% 0 10% !important;
   margin: 0 auto;
   margin-left: 10%;
   animation: fade-in-up 0.9s ease-in-out forwards;
